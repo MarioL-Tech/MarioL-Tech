@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Mario
-- 👀 I’m interested in Microcontroller and Robotics
+- 👀 I’m interested in Microcontroller, Robotics and Medical Engineering
 - 🌱 I’m currently learning C++ & C#
 - ⚡ Fun fact: Mechatronics is fun until it isn´t
 
