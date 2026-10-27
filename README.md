@@ -1,27 +1,13 @@
-<p align="center">
-  <img src="assets/hero.svg" alt="Mario — mechatronics, electronics and software" width="100%">
-</p>
+# Mario
 
-# Hi, I'm Mario 👋
+I'm a mechatronics student in Austria interested in embedded systems, robotics and medical engineering. I enjoy projects that bring electronics and software together.
 
-I'm a mechatronics student in Austria who likes making hardware and software work together. I'm especially interested in **embedded systems**, **robotics**, **self-hosting** and **medical engineering**.
+## Current project
 
-> Build it. Test it. Learn from it. Make it better.
+**[EVSE-Control](https://github.com/MarioL-Tech/EVSE-Control)** is my diploma project for monitoring an electric-vehicle charging station. It brings together a Raspberry Pi, ESP32, Modbus, MQTT and RFID. The current implementation reads wallbox data and provides a read-only web view; charging control is still planned.
 
-## On my workbench
+## Interests and tools
 
-**[EVSE-Control](https://github.com/MarioL-Tech/EVSE-Control)** — my diploma project: a system for monitoring an EV charging station with a Raspberry Pi, ESP32 and RFID. It currently reads wallbox data and has a read-only web view; actual charging control is still in development.
-
-```text
-ESP32 + RFID ── UART ──┐
-                       Raspberry Pi ── MQTT → web view + data storage
-EV charger ── Modbus ──┘           (read-only monitoring)
-```
-
-## Things I enjoy working with
-
-`Microcontrollers` · `C++` · `Linux / NixOS` · `Docker` · `Electronics` · `CAD`
-
-<p align="center">
-  <sub>Mechatronics is fun until it isn't. Then it's a debugging session.</sub>
-</p>
+- Microcontrollers, C++ and electronics
+- Linux, NixOS, Docker and self-hosting
+- CAD and medical engineering
