@@ -1,27 +1,23 @@
-<p align="center">
-  <img src="assets/hero.svg" alt="Mario — mechatronics, electronics and software" width="100%">
-</p>
+# Mario L
 
-# Hi, I'm Mario 👋
+**Mechatronics student · Austria**
 
-I'm a mechatronics student in Austria who likes making hardware and software work together. I'm especially interested in **embedded systems**, **robotics**, **self-hosting** and **medical engineering**.
+I work on projects that connect electronics, embedded systems and software. My current focus is an electric-vehicle charging station project developed as part of my diploma work.
 
-> Build it. Test it. Learn from it. Make it better.
+## Selected project
 
-## On my workbench
+### [EVSE-Control](https://github.com/MarioL-Tech/EVSE-Control)
 
-**[EVSE-Control](https://github.com/MarioL-Tech/EVSE-Control)** — my diploma project: a system for monitoring an EV charging station with a Raspberry Pi, ESP32 and RFID. It currently reads wallbox data and has a read-only web view; actual charging control is still in development.
+A modular system for monitoring an EV charging station, combining a Raspberry Pi, an ESP32 and an RFID-based prototype.
 
-```text
-ESP32 + RFID ── UART ──┐
-                       Raspberry Pi ── MQTT → web view + data storage
-EV charger ── Modbus ──┘           (read-only monitoring)
-```
+| Area | Current implementation |
+| --- | --- |
+| Data acquisition | C++ wallbox reader using Modbus RTU |
+| Services | MQTT state publication and Docker-based components |
+| Interface | Read-only PHP web view of wallbox data |
 
-## Things I enjoy working with
+**Project status:** Monitoring and the read-only web view are implemented. Charging control is not yet implemented; further hardware validation is pending.
 
-`Microcontrollers` · `C++` · `Linux / NixOS` · `Docker` · `Electronics` · `CAD`
+## Technical interests
 
-<p align="center">
-  <sub>Mechatronics is fun until it isn't. Then it's a debugging session.</sub>
-</p>
+Embedded systems, robotics, CAD and medical engineering. I also work with Linux/NixOS, Docker and self-hosted services.
