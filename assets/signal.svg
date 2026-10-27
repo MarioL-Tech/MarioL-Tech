@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="34" viewBox="0 0 260 34" role="img" aria-labelledby="title desc">
+  <title id="title">Digital signal</title>
+  <desc id="desc">A small digital waveform is traced across the screen. A static waveform is shown when reduced motion is preferred.</desc>
+  <style>
+    .trace { animation: sweep 4.5s ease-in-out infinite; }
+    @keyframes sweep {
+      0% { stroke-dashoffset: 85; }
+      72%, 90% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 85; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .trace { animation: none; stroke-dashoffset: 0; }
+    }
+  </style>
+  <path d="M4 25h26V9h30v16h28V9h30v16h26V9h30v16h28V9h30v16h24" fill="none" stroke="#94a3ad" stroke-opacity=".35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="trace" d="M4 25h26V9h30v16h28V9h30v16h26V9h30v16h28V9h30v16h24" pathLength="100" fill="none" stroke="#2b917d" stroke-width="2" stroke-dasharray="100" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
