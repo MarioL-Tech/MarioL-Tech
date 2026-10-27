@@ -8,6 +8,8 @@ I build projects where electronics, embedded systems and software meet. My curre
 
 A modular system for monitoring an EV charging station, built around a Raspberry Pi, ESP32 and an RFID-based prototype.
 
+<img src="assets/monitoring-flow.svg" alt="Wallbox data flows to Raspberry Pi monitoring over Modbus RTU" width="420">
+
 [![C++](https://img.shields.io/badge/C%2B%2B-1e5178?style=flat-square)](https://github.com/MarioL-Tech/EVSE-Control) [![ESP32](https://img.shields.io/badge/ESP32-2d685b?style=flat-square)](https://github.com/MarioL-Tech/EVSE-Control) [![Docker](https://img.shields.io/badge/Docker-1e5178?style=flat-square)](https://github.com/MarioL-Tech/EVSE-Control) [![Last commit](https://img.shields.io/github/last-commit/MarioL-Tech/EVSE-Control?style=flat-square&label=last%20commit&color=2d685b)](https://github.com/MarioL-Tech/EVSE-Control/commits/main/)
 
 | Working now | Planned / pending |
