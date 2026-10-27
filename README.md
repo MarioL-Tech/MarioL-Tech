@@ -19,5 +19,3 @@ A modular system for monitoring an EV charging station, built around a Raspberry
 | Working now | Planned / pending |
 | --- | --- |
 | C++ Modbus RTU wallbox reader, MQTT state publication and a read-only PHP web view | Charging control and further hardware validation |
-
-**Explore:** [Source code](https://github.com/MarioL-Tech/EVSE-Control) · [Recent changes](https://github.com/MarioL-Tech/EVSE-Control/commits/main/)
