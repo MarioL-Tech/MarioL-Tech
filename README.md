@@ -1,23 +1,21 @@
 # Mario L
 
-**Mechatronics student · Austria**
+**Mechatronics student** · Austria
 
-I work on projects that connect electronics, embedded systems and software. My current focus is an electric-vehicle charging station project developed as part of my diploma work.
+I build projects where electronics, embedded systems and software meet. My current focus is EV charging infrastructure as part of my diploma work.
 
-## Selected project
+## Featured project · [EVSE-Control](https://github.com/MarioL-Tech/EVSE-Control)
 
-### [EVSE-Control](https://github.com/MarioL-Tech/EVSE-Control)
+A modular system for monitoring an EV charging station, built around a Raspberry Pi, ESP32 and an RFID-based prototype.
 
-A modular system for monitoring an EV charging station, combining a Raspberry Pi, an ESP32 and an RFID-based prototype.
+[![C++](https://img.shields.io/badge/C%2B%2B-1e5178?style=flat-square)](https://github.com/MarioL-Tech/EVSE-Control) [![ESP32](https://img.shields.io/badge/ESP32-2d685b?style=flat-square)](https://github.com/MarioL-Tech/EVSE-Control) [![Docker](https://img.shields.io/badge/Docker-1e5178?style=flat-square)](https://github.com/MarioL-Tech/EVSE-Control) [![Last commit](https://img.shields.io/github/last-commit/MarioL-Tech/EVSE-Control?style=flat-square&label=last%20commit&color=2d685b)](https://github.com/MarioL-Tech/EVSE-Control/commits/main/)
 
-| Area | Current implementation |
+| Working now | Planned / pending |
 | --- | --- |
-| Data acquisition | C++ wallbox reader using Modbus RTU |
-| Services | MQTT state publication and Docker-based components |
-| Interface | Read-only PHP web view of wallbox data |
+| C++ Modbus RTU wallbox reader, MQTT state publication and a read-only PHP web view | Charging control and further hardware validation |
 
-**Project status:** Monitoring and the read-only web view are implemented. Charging control is not yet implemented; further hardware validation is pending.
+**Explore:** [Source code](https://github.com/MarioL-Tech/EVSE-Control) · [Recent changes](https://github.com/MarioL-Tech/EVSE-Control/commits/main/)
 
-## Technical interests
+## Beyond the project
 
-Embedded systems, robotics, CAD and medical engineering. I also work with Linux/NixOS, Docker and self-hosted services.
+I'm interested in robotics, CAD and medical engineering, and I work with Linux/NixOS and self-hosted services.
