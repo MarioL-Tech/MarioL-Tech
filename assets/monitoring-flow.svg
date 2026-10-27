@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="72" viewBox="0 0 460 72" role="img" aria-labelledby="title desc">
+  <title id="title">EV charger monitoring data flow</title>
+  <desc id="desc">Data moves from the wallbox to a Raspberry Pi over Modbus RTU. This represents monitoring, not charging control.</desc>
+  <style>
+    .packet { animation: travel 3.2s linear infinite; }
+    .second { animation-delay: -1.6s; }
+    @keyframes travel {
+      0% { transform: translateX(0); opacity: 0; }
+      12% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { transform: translateX(139px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .packet { animation: none; transform: translateX(70px); opacity: 1; }
+      .second { opacity: 0; }
+    }
+  </style>
+  <rect x="1" y="1" width="458" height="70" rx="10" fill="#152b33" stroke="#35505a"/>
+  <circle cx="27" cy="31" r="13" fill="none" stroke="#65d2b4" stroke-width="1.5"/>
+  <path d="M23 25h8v10h-8zM25 29h4" fill="none" stroke="#65d2b4" stroke-width="1.5"/>
+  <text x="48" y="37" fill="#edf6f5" font-family="Arial, sans-serif" font-size="13" font-weight="600">Wallbox</text>
+  <path d="M152 31h148m-7-5 7 5-7 5" fill="none" stroke="#71939b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#65d2b4">
+    <circle class="packet" cx="157" cy="31" r="3"/>
+    <circle class="packet second" cx="157" cy="31" r="3"/>
+  </g>
+  <text x="190" y="55" fill="#bacfd1" font-family="Arial, sans-serif" font-size="10" letter-spacing="1">MODBUS RTU</text>
+  <rect x="321" y="18" width="26" height="26" rx="5" fill="none" stroke="#65d2b4" stroke-width="1.5"/>
+  <circle cx="334" cy="31" r="4" fill="#65d2b4"/>
+  <text x="359" y="37" fill="#edf6f5" font-family="Arial, sans-serif" font-size="13" font-weight="600">Pi</text>
+</svg>
